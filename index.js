@@ -33,7 +33,7 @@ bot.on('text', (msg) => {
     	});
     
     	shell.stderr.on('data', (data) => {
-        	msg.reply.text(`stderr: ${data}`);
+        	msg.reply.text(`${data}`);
     	});
     }
 
