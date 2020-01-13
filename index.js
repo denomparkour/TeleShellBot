@@ -29,15 +29,11 @@ bot.on('text', (msg) => {
     if(shell){
     
     	shell.stdout.on('data', (data) => {
-        	msg.reply.text(`stdout:\n ${data}`);
+        	msg.reply.text(`${data}`);
     	});
     
     	shell.stderr.on('data', (data) => {
         	msg.reply.text(`stderr: ${data}`);
-    	});
-    
-    	shell.on('close', (code) => {
-        	msg.reply.text(`shell exited with code ${code}`);
     	});
     }
 
