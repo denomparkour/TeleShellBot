@@ -7,8 +7,7 @@ const adminUsers = config.adminUsers;
 
 
 bot.on('text', (msg) => {
-    const id = msg.from.id;
-    msg.reply.text('$:'+msg.text);
+    const id = msg.from.id;    
     if(adminUsers.indexOf(id) < 0){
         msg.reply.text('You are not admin!');
         return;
