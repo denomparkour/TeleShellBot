@@ -2,13 +2,13 @@
   "name": "teleshellbot",
   "version": "1.0.0",
   "description": "A simple Telegram Bot to run shell commands remotely",
-  "engines": {
-    "node": "10.18.1"
-  
   "repository": {
     "type": "git",
     "url": "https://github.com/marknote/TeleShellBot.git"
   },
+    "engines": {
+    "node": "10.18.1"
+    }
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
