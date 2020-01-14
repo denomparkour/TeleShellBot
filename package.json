@@ -4,7 +4,7 @@
   "description": "A simple Telegram Bot to run shell commands remotely",
   "engines": {
     "node": "10.18.1"
-  }
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/marknote/TeleShellBot.git"
